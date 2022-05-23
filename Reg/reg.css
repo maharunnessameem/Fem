@@ -1,0 +1,56 @@
+body{
+	background: url(../Home/homebg2.jpg) no-repeat 0 0 / cover;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+* {box-sizing: border-box}
+.form{
+    position: relative;
+    border-radius: 5px;
+  	background-color: transparent;
+  	padding: 20px 0 30px 0;
+}
+input[type=text]{
+	text-align: center;
+	color: Slategrey;
+}
+input[type=Password]{
+  text-align: center;
+  color: Slategrey;
+}
+input[type=submit] {
+  background-color: IndianRed;
+  color: Bisque;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: SlateGrey;
+}
+.select{
+	background-color: transparent;
+	position: relative;
+	border-radius: 10px;
+  	background-color: transparent;
+  	padding: 20px 0 30px 0;
+}
+
+
+input,
+.btn {
+  width: 25%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}

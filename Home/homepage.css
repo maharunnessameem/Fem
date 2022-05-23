@@ -1,0 +1,115 @@
+body{
+	background: url(homebg.jpg) no-repeat 0 0 / cover;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav{
+	background-color: inherit;
+	overflow: hidden;
+	display: block;
+}
+.nav a{
+	float: right;
+	margin-top: 20px;
+	color: DarkSlateBlue;
+	text-align: right;
+	padding: 5px 35px;
+	box-sizing: border-box;
+	text-decoration:blink;
+	font-size: 25px;
+}
+.nav a:hover{
+	background-color: transparent;
+	color: CornSilk;
+}
+.nav a.active {
+	background-color: transparent;
+	color: RebeccaPurple;
+	font-size: xx-large;
+}
+/* The dropdown container */
+.dropdown {
+  background-color: inherit;
+	overflow: hidden;
+	display: block;
+	float: right;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  display: block;
+  border: none;
+  outline: none;
+  color: DarkSlateBlue;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: DarkSlateBlue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: transparent;
+  color: CornSilk;
+  opacity: .50;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: Cornsilk;
+}
+
+ {
+  margin-right: 35px;
+  margin-top: 15px;	
+  border: solid DarkSlateBlue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+}
+.down {
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+}
+.down:hover{color:Cornsilk;}
+
+.blog1 , .blog2, .blog3{
+  display: block;
+  background-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  width : 50%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  min-height: 30px;
+  float:center;
+}
+
+.blog1:hover , .blog2:hover , .blog3:hover{
+  background-color: transparent;
+  opacity: .50;
+}
+

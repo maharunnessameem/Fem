@@ -1,0 +1,48 @@
+<?php
+	require './Login/login.php';
+	session.start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title> Fem-HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="homepage.css"> 	
+<script src="https://kit.fontawesome.com/753523fc2b.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section id="home">
+	<div class="dropdown">
+    	<button class="dropbtn">
+    		 <i class="fas fa-angle-down"></i>
+   		</button>
+   		<div class="dropdown-content">
+      		<a href="../Profile/profile.php">Delete Profile</a>
+      		<a href="../logout.php">Logout</a>
+  		</div>
+  	</div>
+	<div class="nav">
+		<a href="../Contact/Contact.html"> Contact us </a>
+		<a href="../Tools/ToolsIndex.php"> Tools </a>
+		<a href="../Discussion/DisIndex.php"> Discussion</a>
+		<a  class="active" href="../Home/homepage.html"> Home </a>
+	</div>
+	<center> <h3> Since we don't have original contents of our own yet,<br> Here are some other sites that are a great place to start! </h3> </center>
+	<div class = "blog1">	
+		<a href="https://cupofjo.com"> A Cup of Joe </a>
+	</div>
+
+	<div class = "blog2">
+		<a href="https://www.driven-woman.com/blog"> Driven Women </a>
+	</div>
+
+	<div class = "blog3">
+		<a href="https://sevenwomen.org/blog"> Seven Women </a>
+	</div>
+
+
+	</section>
+</body>
+</html>
